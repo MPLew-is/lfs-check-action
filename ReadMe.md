@@ -15,7 +15,7 @@ Add to a workflow in your repository:
 ```yaml
 ...
     steps:
-      - uses: MPLew-is/lfs-check-action@1.0
+      - uses: MPLew-is/lfs-check-action@1
 ```
 
 That's it - this action takes no inputs and returns no outputs, only returning a status code about whether the LFS validation succeeded.
