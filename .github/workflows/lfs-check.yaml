@@ -1,0 +1,10 @@
+name: Check that all binary files use LFS
+
+on:
+  push:
+
+jobs:
+  lfs-fsck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./
